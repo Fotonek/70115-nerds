@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Илья Недашковский](https://up.htmlacademy.ru/htmlcss/22/user/70115).
-* Наставник: [Илья Туров] (https://htmlacademy.ru/profile/id240222).
+* Наставник: [Илья Туров](https://up.htmlacademy.ru/htmlcss/22/user/240222).
 
 ---
 
