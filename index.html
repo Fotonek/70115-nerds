@@ -6,99 +6,108 @@
   </head>
   <body>
   <header>
-    <nav>
+    <nav class="nav">
       <a>
-        <img src="ЛОГО">
+        <img src="logo" alt="Nerds logo">
       </a>
-      <ul>
-        <li><a href="Ссылка">Студия</a></li>
-        <li><a href="Ссылка">Клиенты</a></li>
-        <li><a href="Ссылка">Магазин</a></li>
-        <li><a href="Ссылка">Контакты</a></li>
-      </ul>
-      <ul>
-        <li>
-          <a>
-            <img src="Иконка корзины">
-          </a>
+      <ul class="nav_list">
+        <li class="nav_item nav_item--current">
+          <a class="nav_link"></a>Студия</a>
         </li>
-        <li>Корзина
+        <li class="nav_item">
+          <a class="nav_link" href="#">Клиенты</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Магазин</a>
+        </li>
+        <li class="nav_item">
+          <a class="nav_link" href="#">Контакты</a>
         </li>
       </ul>
+      <div class="basket">
+            <img class="basket_icon" alt="Корзина">
+            <a class="backet_link" href="#">Корзина</a>
+          </div>
     </nav>
-    <section>
+    <article>
+    <div class="header_slider">
       <h1>Долго, дорого, скрупулезно.</h1>
       <p>Математически выверенный дизайн для вашего сайта или мобильного приложенияю</p>
       <button><a href="Ссылка на кнопке">Узнать больше</a></button>
-    <div class="slider">
-
     </div>
-  </section>
+  </article>
   </header>
   <main>
-    <section class="Сайты, приложения, презентации">
-      <ul>
-        <li><img class="Веб-сайты">
+    <section class="main_sap">
+      <ul class="sap_list">
+        <li class="sap_list_item"><img class="sap_list_item_image" src="#">
         <h3>Веб-сайты</h3>
       <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-    <button><a href="Заказать веб-сайты">Заказать</a></button>
+    <button><a class="sap_list_item_links" href="#">Заказать</a></button>
   </li>
-  li><img class=Приложения">
+  <li class="sap_list_item"><img class="sap_list_item_image" src="#">
         <h3>Приложения</h3>
       <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-    <button><a href="Заказать приложения">Заказать</a></button>
+    <button><a class="sap_list_item_links" href="#">Заказать</a></button>
   </li>
-  li><img class=Презентации">
+  <li class="sap_list_item"><img class="sap_list_item_image" src="#">
         <h3>Презентации</h3>
       <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-    <button><a href="Заказать презентации">Заказать</a></button>
+    <button><a class="sap_list_item_links" href="#">Заказать</a></button>
   </li>
       </ul>
     </section>
-    <section>
+    <article class="description">
       <h1>Мы- маленькая, но гордая дизайн-студия из Краснодара.</h1>
       <p>Исповедуем принципы минимализма и чистоты. Ставим математическй расчет превыше креатива. Работаем не покладая рук, как роботы.</p>
       <h3>Выполняем заказы на разработку:</h3>
-      <ul>
-        <li>Веб-сайтов любой сложности</li>
-        <li>Мобильных приложений для iOS и Android</li>
-        <li>Слайдшоу и видео для корпоративных презентаций</li>
+      <ul class="desription_list">
+        <li class="description_list_item">Веб-сайтов любой сложности</li>
+        <li class="description_list_item">Мобильных приложений для iOS и Android</li>
+        <li class="description_list_item">Слайдшоу и видео для корпоративных презентаций</li>
       </ul>
-      <img class="Лого нердс">
+      <img class="big_logo_nerds" src="#">
       <h3>С 2004 любим точность во всём:</h3>
-      <ul>
+      <ul class="hor_list">
         <!--Стилями задать горизонтальное расположение-->
-        <li><h1>146%</h1>h1>
+        <li clsas="hor_list_item"><h1>146%</h1>h1>
         <p>Уровень самоотдачи</p></li>
-        <li><h1>100%</h1>h1>
+        <li clsas="hor_list_item"><h1>100%</h1>h1>
           <p>Соблюдение сроков</p></li>
-          <li><h1>50%</h1>h1>
+          <li clsas="hor_list_item"><h1>50%</h1>h1>
             <p>Минимальная предоплата</p></li>
       </ul>
-    </section>
-    <figure>
-      <p><img class="figure1"></p>
-      <p><img class="figure2"></p>
-      <p><img class="figure3"></p>
+    <figure class="figures">
+      <p><img class="figure1" src="#"></p>
+      <p><img class="figure2" src="#"></p>
+      <p><img class="figure3" src="#"></p>
+      <p><img class="figure4" src="#"></p>
+
 
     </figure>
+  </article>
   </main>
-  <footer>
-    <map>
+  <footer class="footer_main_map">
+    <map class="footer_map">
 
     </map>
-    <section>
-      <ul>
-        <li><button><img src="VK"></button>></li>
-        <li><button><img src="Fb"></button>></li>
-        <li><button><img src="Insta"></button>></li>
+    <section class="footer_contacts">
+      <ul class="footer_contacts_list">
+        <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
+        <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
+        <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
 
       </ul>
-    </section>
-    <section>
       <h1>Давайте дружить, это выгодно!</h1>
       <p>Скидка 10% для друзей из социальных сетей.</p>
     </section>
   </footer>
 </body>
 </html>
+
+
+
+
+
+
+
