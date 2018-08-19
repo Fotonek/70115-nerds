@@ -1,21 +1,14 @@
 <!DOCTYPE html>
-<html lang="ru">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-      <!DOCTYPE html>
       <html lang="ru">
         <head>
           <meta charset="utf-8">
           <title>HTML Academy: Нёрдс</title>
         </head>
-        <body>
-        <header>
+        <body class="body_main">
+        <header class="header_main">
           <nav class="nav">
             <a>
-              <img src="logo" alt="Nerds logo">
+              <img src="index.html" alt="Nerds logo">
             </a>
             <ul class="nav_list">
                 <li class="nav_item">
@@ -24,7 +17,7 @@
               <li class="nav_item">
                 <a class="nav_link" href="#">Клиенты</a>
               </li>
-              <li class="nav_item nav_item--current">
+              <li class="nav_item nav_item-current">
                   <a class="nav_link">Магазин</a>
               </li>
               <li class="nav_item">
@@ -32,58 +25,66 @@
               </li>
             </ul>
             <div class="basket">
-                  <img class="basket_icon" alt="Корзина">
-                  <a class="backet_link" href="#">Корзина</a>
-                </div>
-          </nav>
-          <h1>Магазин готовых шаблонов</h1>
+                <a class="basket_link" href="#"><img class="basket_icon" alt="Корзина" src="#"></a>
+              </div>
+        </nav>
+          <h1 class>Магазин готовых шаблонов</h1>
         </header>
 <main>
-  <section class="sidebar">
-    <aside class="sidebar_section">
-      <h2>СТОИМОСТЬ</h2>
-      <div class="cost_line"></div>
-      <p>ОТ<div class="min_cost"></div> ДО <div class="max_cost"></div></p>
-      <h2>СЕТКА:</h2>
-      <ul class="grid_type_list">
-        <li class="grid_type_element"><div clas="grid_type">Адаптивная</div></li>
-        <li class="grid_type_element"><div clas="grid_type">Фиксированная</div></li>
-        <li class="grid_type_element"><div clas="grid_type">Резиновая</div></li>
+  <div class="sidebar_catalog">
+    <form class="details">
+       <fieldset class="price">
+         <legend>СТОИМОСТЬ:</legend>
+         <div class="price_line"></div>
+         <p>ОТ</p>
+         <div class="price_min"></div>
+         <p>ДО</p>
+         <div class="max_price"></div>
+       <!--Цена input?-->
+      <b>СЕТКА:</b>
+      <p>
+     <input type="checkbox">Адаптивная<br>
+      <input type="checkbox">Фиксированная<br>
+      <input type="checkbox">Резиновая</p>
 
-      </ul>
-      <h3>ОСОБЕННОСТИ:</h3>
-      <ul class="spec_type_list">
-          <li class="spec_type_element"><div clas="spec_type">Слайдер</div></li>
-          <li class="spec_type_element"><div clas="spec_type">Блок преимуществ</div></li>
-          <li class="spec_type_element"><div clas="spec_type">Новости</div></li>
-          <li class="spec_type_element"><div clas="spec_type">Галерея</div></li>
-          <li class="spec_type_element"><div clas="spec_type">Корзина</div></li>
-      </ul>
-      <div class="button_sidebar_show">Показать</div>
 
-    </aside>
-  </section>
+        </fieldset>
+
+
+
+
+
+
+
+    </form>
+  </div>
+
+
+
 
 </main>
+<section class="main_map">
+  <h3 class="visually-hidden">Наши контакты</h3>
+  <map class="map" name="navigation_map">
+    <div><address><b>NЁRDS DESIGN STUDIO</b>
+    <p>191186, Санкт-Петербург,<br>
+    ул. Б. Конюшенная, д. 19/8<br>
+  тел. +7 (812) 275-75-75</p></address></div>
 
+  </map>
+</section>
+<footer>
+  <div class="footer_social_contacts">
+    <ul class="footer__social_contacts_list">
+      <li class="footer__social_contacts_list_links"><img src="#" alt="VK"></li>
+      <li class="footer_social_contacts_list_links"><img src="#" alt="Fb"></li>
+      <li class="footer_social_contacts_list_links"><img src="#" alt="Inst"></li>
 
-
-
-
-<footer class="footer_main_map">
-            <map class="footer_map">
-
-            </map>
-            <section class="footer_contacts">
-              <ul class="footer_contacts_list">
-                <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
-                <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
-                <li class="footer_contacts_list_links"><button><img src="#"></button>></li>
-
-              </ul>
-              <h1>Давайте дружить, это выгодно!</h1>
-              <p>Скидка 10% для друзей из социальных сетей.</p>
-            </section>
-          </footer>
-        </body>
-        </html>
+    </ul>
+    <div>
+      <b>Давайте дружить, это выгодно!</b>
+    <p>Скидка 10% для друзей из социальных сетей.</p>
+  </div>
+</footer>
+</body>
+</html>
