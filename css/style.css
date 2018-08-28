@@ -1,0 +1,8 @@
+.main-header{
+  background-color: #eeeeee;
+}
+
+.nav-main{
+  display:-webkit-box;
+  -webkit-box-orient:horizontal;
+}
