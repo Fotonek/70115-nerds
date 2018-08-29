@@ -4,22 +4,24 @@
 <head>
   <meta charset="utf-8">
   <title>HTML Academy: Нёрдс</title>
+  <link href="css/normalize.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body class="body_main">
   <header class="main-header">
     <nav class="nav-main">
-      <a class="logo-nav-link" href="#">
+      <a class="logo-nav-link" href="index.html">
         <img src="img/nerds-logo.png" class="logo-img" width="160" hight="65" alt="Nerds logo">
       </a>
-      <ul class="nav-list">
+      <ul class="nav-item">
         <li class="nav-item-current">
-          <a class="nav-link">Студия</a>
+          <a href="index.html" class="nav-link">Студия</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Клиенты</a>
+          <a href="#" class="nav-link">Клиенты</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item-current">
           <a class="nav-link" href="#">Магазин</a>
         </li>
         <li class="nav-item">
@@ -35,7 +37,7 @@
   </header>
   <main class="main">
     <h1 class>Магазин готовых шаблонов</h1>
-    <form class="form-settings" action="unknown.php" method="POST">
+    <form action="unknown.php" class="form-settings" method="POST">
       <fieldset class="price">
         <legend>СТОИМОСТЬ:</legend>
         <div class="price-line"></div>
@@ -44,13 +46,13 @@
         <p>ДО</p>
         <div class="max-price"></div>
       </fieldset>
-      <fieldset class="grid">
+      <fieldset class="grid-title">
         <legend>СЕТКА:</legend>
-        <input type="checkbox">Адаптивная
+        <input type="radio" name="grid" id="adaptive">Адаптивная
         <br>
-        <input type="checkbox">Фиксированная
+        <input type="radio" name="grid" id="fixed">Фиксированная
         <br>
-        <input type="checkbox">Резиновая
+        <input type="radio" name="grid" id="rubber">Резиновая
       </fieldset>
       <legend>ОСОБЕННОСТИ:</legend>
       <input id="slider" name="slider" type="checkbox" value="slider" checked>
@@ -81,7 +83,7 @@
         <li class="catalog-item">
           <figure class="catalog-item-image-1">
             <img src="img/browser.png" width="360" height="40" class="browser">
-            <img src="img/img-sedona.png" width="360" height="576" alt="Sedona">
+            <img src="img/img-sedona.jpg.png" width="360" height="576" alt="Sedona">
             <figcaption class="item-description">
               <h3>Sedona</h3>
               <p>Информационный сайт для туристов</p>
@@ -93,7 +95,7 @@
           <li class="catalog-item">
             <figure class="catalog-item-image-2">
               <img src="img/browser.png" width="360" height="40" class="browser">
-              <img src="img/img-pink.png" width="360" height="576" alt="Pink">
+              <img src="img/img-pink.jpg.png" width="360" height="576" alt="Pink">
               <figcaption class="item-description">
                 <h3>PINK APP</h3>
                 <p>Продуктовый лендинг
@@ -106,7 +108,7 @@
             <li class="catalog-item">
               <figure class="catalog-item-image-3">
                 <img src="img/browser.png" width="360" height="40" class="browser">
-                <img src="img/img-barbershop.png" width="360" height="576" alt="Barbershop">
+                <img src="img/img-barbershop.jpg.png" width="360" height="576" alt="Barbershop">
                 <figcaption class="item-description">
                   <h3>BARBERSHOP</h3>
                   <p>Сайт салона красоты.
@@ -119,7 +121,7 @@
               <li class="catalog-item">
                 <figure class="catalog-item-image-4">
                   <img src="img/browser.png" width="360" height="40" class="browser">
-                  <img src="img/img-mishka.png" width="360" height="576" alt="Mishka">
+                  <img src="img/img-mishka.jpg.png" width="360" height="576" alt="Mishka">
                   <figcaption class="item-description">
                     <h3>MISHKA</h3>
                     <p>Интернет-магазин
@@ -132,7 +134,7 @@
                 <li class="catalog-item">
                   <figure class="catalog-item-image-5">
                     <img src="img/browser.png" width="360" height="40" class="browser">
-                    <img src="img/img-aplus.png" width="360" height="576" alt="Aplus">
+                    <img src="img/img-aplus.jpg.png" width="360" height="576" alt="Aplus">
                     <figcaption class="item-description">
                       <h3>A PLUS</h3>
                       <p>Лендинг курсов повышения
@@ -146,7 +148,7 @@
                   <li class="catalog-item">
                     <figure class="catalog-item-image-6">
                       <img src="img/browser.png" width="360" height="40" class="browser">
-                      <img src="img/img-kvast.png" width="360" height="576" alt="Kvast">
+                      <img src="img/img-kvast.jpg.png" width="360" height="576" alt="Kvast">
                       <figcaption class="item-description">
                         <h3>KVAST</h3>
                         <p>Промо-сайт производителя
