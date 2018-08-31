@@ -1,3 +1,11 @@
+body{
+  font-family: Roboto, Arial, sans-serif;
+  font-size: 16px;
+
+}
+
+
+
 .main-header{
   background-color: #eeeeee;
 }
@@ -9,6 +17,7 @@
 
 .slider{
   background-color: #eeeeee;
+  position: relative;
 }
 
 .nav-list{
@@ -18,4 +27,5 @@
 .advantages-list{
   list-style-type:none;
 }
-/*
+
+
