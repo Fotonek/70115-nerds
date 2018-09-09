@@ -102,7 +102,7 @@ a {
   height: 30px;
   top: 3px;
   left: 22px;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/cart-icon.svg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/cart-icon.svg");
   background-color: #eeeeee;
   background-repeat: no-repeat;
   background-position: 0 0;
@@ -191,21 +191,21 @@ a {
 }
 
 .slider-item:nth-child(1) {
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/slide1.png');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/slide1.png");
   background-color: #eeeeee;
   background-repeat: no-repeat;
   background-position: 95% 11px;
 }
 
 .slider-item:nth-child(2) {
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/slide2.png');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/slide2.png");
   background-color: #eeeeee;
   background-repeat: no-repeat;
   background-position: 100% 0;
 }
 
 .slider-item:nth-child(3) {
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/slide3.png');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/slide3.png");
   background-color: #eeeeee;
   background-repeat: no-repeat;
   background-position: 100% 20px;
@@ -635,7 +635,7 @@ a {
 
 .footer-address iframe {
   width: 100%;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/map.jpg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/map.jpg");
   background-repeat: no-repeat;
   background-position: 50%;
   border: 0;
@@ -1233,7 +1233,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-off.svg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1246,7 +1246,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-on.svg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1259,7 +1259,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/radio-off.svg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/radio-off.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1272,7 +1272,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/radio-on.svg');
+  background-image: url("https://github.com/Fotonek/70115-nerds/tree/master/img/radio-on.svg");
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
