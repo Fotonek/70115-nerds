@@ -1233,7 +1233,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-off.svg);
+  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-off.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1246,7 +1246,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-on.svg);
+  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/checkbox-on.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1259,7 +1259,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(https://github.com/Fotonek/70115-nerds/tree/master/img/radio-off.svg);
+  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/radio-off.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1272,7 +1272,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(https://github.com/Fotonek/70115-nerds/tree/master/img/radio-on.svg);
+  background-image: url('https://github.com/Fotonek/70115-nerds/tree/master/img/radio-on.svg');
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
