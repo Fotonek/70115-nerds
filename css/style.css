@@ -1259,7 +1259,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(../img/radio-off.svg);
+  background-image: url(https://github.com/Fotonek/70115-nerds/blob/master/img/radio-off.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
@@ -1272,7 +1272,7 @@ input[type="email"]:invalid {
   left: -36px;
   width: 35px;
   height: 35px;
-  background-image: url(../img/radio-on.svg);
+  background-image: url(https://github.com/Fotonek/70115-nerds/blob/master/img/radio-on.svg);
   background-repeat: no-repeat;
   background-position: 0 0;
   opacity: 0.5;
